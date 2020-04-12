@@ -1,0 +1,7 @@
+DELETE FROM phone;
+DELETE FROM andress;
+DELETE FROM customer;
+
+ALTER SEQUENCE phone_id_seq RESTART WITH 1;
+ALTER SEQUENCE andress_id_seq RESTART WITH 1;
+ALTER SEQUENCE customer_id_seq RESTART WITH 1;
